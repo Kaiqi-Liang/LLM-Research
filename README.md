@@ -1,6 +1,8 @@
 # Secure Coding with LLMs
 
-## Seting up the Environment
+[Draft Paper](paper/main.pdf)
+
+## Setting up the Environment
 
 Add your openAI API key in an environment variable and install all the dependencies.
 
@@ -34,7 +36,7 @@ curl -sfL https://raw.githubusercontent.com/Bearer/bearer/main/contrib/install.s
 ## Running the Pipeline
 
 ```bash
-python pipeline.py
+cd src && python pipeline.py
 ```
 
 The first step of the pipeline is to enter a filename that contains the vulnerable code that you would like to be fixed.
